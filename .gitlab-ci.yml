@@ -9,6 +9,7 @@ lint:
     - npm run lint
   only:
     - merge_requests
+    - main
     - unit_test
 
 test:
@@ -18,4 +19,5 @@ test:
     - npm test
   only:
     - merge_requests
+    - main
     - unit_test 
