@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# Запуск только eslint для staged файлов js
+npx lint-staged --no-stash
