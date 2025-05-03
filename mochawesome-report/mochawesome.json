@@ -5,9 +5,9 @@
     "passes": 61,
     "pending": 0,
     "failures": 0,
-    "start": "2025-04-15T19:04:53.793Z",
-    "end": "2025-04-15T19:04:53.831Z",
-    "duration": 38,
+    "start": "2025-05-03T12:18:52.983Z",
+    "end": "2025-05-03T12:18:53.015Z",
+    "duration": 32,
     "testsRegistered": 61,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "e7679015-160a-4b1e-97f9-f504662b8c19",
+      "uuid": "d8210947-587d-4874-99d1-4b6359251c64",
       "title": "",
       "fullFile": "",
       "file": "",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "6d337cec-4099-4af5-a589-4c013dd5905d",
+          "uuid": "be89e338-55ee-487d-b353-6114c4048142",
           "title": "Array Utils",
           "fullFile": "C:\\Test_JS\\test\\arrayUtils.test.js",
           "file": "\\test\\arrayUtils.test.js",
@@ -36,7 +36,7 @@
           "tests": [],
           "suites": [
             {
-              "uuid": "95faae13-6b3c-4444-bfe6-4ce166f2cfc7",
+              "uuid": "9ea6d863-c021-49f0-84ce-a46af0807657",
               "title": "findMax - normal case",
               "fullFile": "C:\\Test_JS\\test\\arrayUtils.test.js",
               "file": "\\test\\arrayUtils.test.js",
@@ -56,15 +56,15 @@
                   "context": null,
                   "code": "expect(findMax([1, 2, 3])).to.equal(3);",
                   "err": {},
-                  "uuid": "375efd39-c3a6-4839-9c9f-6a664dd1ed81",
-                  "parentUUID": "95faae13-6b3c-4444-bfe6-4ce166f2cfc7",
+                  "uuid": "574ea546-ea12-4382-bd68-d8b957fe5523",
+                  "parentUUID": "9ea6d863-c021-49f0-84ce-a46af0807657",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "375efd39-c3a6-4839-9c9f-6a664dd1ed81"
+                "574ea546-ea12-4382-bd68-d8b957fe5523"
               ],
               "failures": [],
               "pending": [],
@@ -75,7 +75,7 @@
               "_timeout": 2000
             },
             {
-              "uuid": "32df258e-a0e9-426e-a871-3b80a14cc733",
+              "uuid": "ccd23d73-abb4-472c-9c99-e91d2511ed71",
               "title": "findMax - input validation",
               "fullFile": "C:\\Test_JS\\test\\arrayUtils.test.js",
               "file": "\\test\\arrayUtils.test.js",
@@ -93,17 +93,17 @@
                   "fail": false,
                   "pending": false,
                   "context": null,
-                  "code": "expect(() => findMax(\"not an array\")).to.throw(\"Input must be an array\");",
+                  "code": "expect(() => findMax('not an array')).to.throw('Input must be an array');",
                   "err": {},
-                  "uuid": "c95042e4-0393-40a7-9355-5da8bf17c3b6",
-                  "parentUUID": "32df258e-a0e9-426e-a871-3b80a14cc733",
+                  "uuid": "3ce69b85-1ce9-445c-8be7-cb69f3aa1332",
+                  "parentUUID": "ccd23d73-abb4-472c-9c99-e91d2511ed71",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "c95042e4-0393-40a7-9355-5da8bf17c3b6"
+                "3ce69b85-1ce9-445c-8be7-cb69f3aa1332"
               ],
               "failures": [],
               "pending": [],
@@ -114,7 +114,7 @@
               "_timeout": 2000
             },
             {
-              "uuid": "b533aa29-4f56-49a3-9842-3f9268883c9f",
+              "uuid": "34d5f4f9-55ef-43b5-9d5d-529cf8d141f2",
               "title": "findMax - negative numbers",
               "fullFile": "C:\\Test_JS\\test\\arrayUtils.test.js",
               "file": "\\test\\arrayUtils.test.js",
@@ -134,15 +134,15 @@
                   "context": null,
                   "code": "expect(findMax([-1, -2, -3])).to.equal(-1);",
                   "err": {},
-                  "uuid": "9aa4f139-1ee7-4099-ac47-12fc1912a80d",
-                  "parentUUID": "b533aa29-4f56-49a3-9842-3f9268883c9f",
+                  "uuid": "8f992853-a650-44e7-a8bd-766239b34cf6",
+                  "parentUUID": "34d5f4f9-55ef-43b5-9d5d-529cf8d141f2",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "9aa4f139-1ee7-4099-ac47-12fc1912a80d"
+                "8f992853-a650-44e7-a8bd-766239b34cf6"
               ],
               "failures": [],
               "pending": [],
@@ -153,7 +153,7 @@
               "_timeout": 2000
             },
             {
-              "uuid": "18cde3ab-4f02-4379-9d60-c28493c88b32",
+              "uuid": "671afd90-75e4-4ee5-814e-40e22987b6aa",
               "title": "findMin - normal case",
               "fullFile": "C:\\Test_JS\\test\\arrayUtils.test.js",
               "file": "\\test\\arrayUtils.test.js",
@@ -173,15 +173,15 @@
                   "context": null,
                   "code": "expect(findMin([1, 2, 3])).to.equal(1);",
                   "err": {},
-                  "uuid": "7af3c145-574f-40e0-879b-b320d439a8aa",
-                  "parentUUID": "18cde3ab-4f02-4379-9d60-c28493c88b32",
+                  "uuid": "d605fd57-3fab-4190-a755-21587b84ca97",
+                  "parentUUID": "671afd90-75e4-4ee5-814e-40e22987b6aa",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "7af3c145-574f-40e0-879b-b320d439a8aa"
+                "d605fd57-3fab-4190-a755-21587b84ca97"
               ],
               "failures": [],
               "pending": [],
@@ -192,7 +192,7 @@
               "_timeout": 2000
             },
             {
-              "uuid": "8c924a73-5e0a-4112-9bbb-79bae0d579ea",
+              "uuid": "49992f53-567b-478f-9a77-ef4683fa5059",
               "title": "findMin - input validation",
               "fullFile": "C:\\Test_JS\\test\\arrayUtils.test.js",
               "file": "\\test\\arrayUtils.test.js",
@@ -203,35 +203,35 @@
                   "title": "Throws error if input is not an array",
                   "fullTitle": "Array Utils findMin - input validation Throws error if input is not an array",
                   "timedOut": false,
-                  "duration": 1,
+                  "duration": 0,
                   "state": "passed",
                   "speed": "fast",
                   "pass": true,
                   "fail": false,
                   "pending": false,
                   "context": null,
-                  "code": "expect(() => findMin(\"not an array\")).to.throw(\"Input must be an array\");",
+                  "code": "expect(() => findMin('not an array')).to.throw('Input must be an array');",
                   "err": {},
-                  "uuid": "efe7889a-a8f5-4895-8d5f-dfe6d38d34dd",
-                  "parentUUID": "8c924a73-5e0a-4112-9bbb-79bae0d579ea",
+                  "uuid": "d8166bb6-375a-4e86-9e1d-c3e2a3a30d9e",
+                  "parentUUID": "49992f53-567b-478f-9a77-ef4683fa5059",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "efe7889a-a8f5-4895-8d5f-dfe6d38d34dd"
+                "d8166bb6-375a-4e86-9e1d-c3e2a3a30d9e"
               ],
               "failures": [],
               "pending": [],
               "skipped": [],
-              "duration": 1,
+              "duration": 0,
               "root": false,
               "rootEmpty": false,
               "_timeout": 2000
             },
             {
-              "uuid": "2afbffcc-e665-45ea-aa42-20d5e514f96b",
+              "uuid": "a3c9f873-0d67-42e0-b5e7-9f0461b2c593",
               "title": "findMin - negative numbers",
               "fullFile": "C:\\Test_JS\\test\\arrayUtils.test.js",
               "file": "\\test\\arrayUtils.test.js",
@@ -251,15 +251,15 @@
                   "context": null,
                   "code": "expect(findMin([-1, -2, -3])).to.equal(-3);",
                   "err": {},
-                  "uuid": "6eee3482-ff7a-45c1-98e9-3f56a9bffde9",
-                  "parentUUID": "2afbffcc-e665-45ea-aa42-20d5e514f96b",
+                  "uuid": "3dc82900-3aec-442f-8203-7d7de8bffd52",
+                  "parentUUID": "a3c9f873-0d67-42e0-b5e7-9f0461b2c593",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "6eee3482-ff7a-45c1-98e9-3f56a9bffde9"
+                "3dc82900-3aec-442f-8203-7d7de8bffd52"
               ],
               "failures": [],
               "pending": [],
@@ -270,7 +270,7 @@
               "_timeout": 2000
             },
             {
-              "uuid": "eb73faa3-6874-48d5-b4ce-4d3dd5e53d20",
+              "uuid": "8ece5593-a9dd-4d97-adda-95bae002a8f2",
               "title": "removeDuplicates - normal case",
               "fullFile": "C:\\Test_JS\\test\\arrayUtils.test.js",
               "file": "\\test\\arrayUtils.test.js",
@@ -290,15 +290,15 @@
                   "context": null,
                   "code": "expect(removeDuplicates([1, 2, 2, 3, 3])).to.deep.equal([1, 2, 3]);",
                   "err": {},
-                  "uuid": "6503fa9b-1b87-457b-9b82-264d8a6e5dc8",
-                  "parentUUID": "eb73faa3-6874-48d5-b4ce-4d3dd5e53d20",
+                  "uuid": "042b26d7-01ce-4c26-bb52-c5e3079f94a5",
+                  "parentUUID": "8ece5593-a9dd-4d97-adda-95bae002a8f2",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "6503fa9b-1b87-457b-9b82-264d8a6e5dc8"
+                "042b26d7-01ce-4c26-bb52-c5e3079f94a5"
               ],
               "failures": [],
               "pending": [],
@@ -309,7 +309,7 @@
               "_timeout": 2000
             },
             {
-              "uuid": "ea2679ef-d553-4c2a-bded-de1db2990349",
+              "uuid": "62a8b3e2-b2ca-4c35-ab97-8c9fb3ced259",
               "title": "removeDuplicates - input validation",
               "fullFile": "C:\\Test_JS\\test\\arrayUtils.test.js",
               "file": "\\test\\arrayUtils.test.js",
@@ -327,17 +327,17 @@
                   "fail": false,
                   "pending": false,
                   "context": null,
-                  "code": "expect(() => removeDuplicates(\"not an array\")).to.throw(\"Input must be an array\");",
+                  "code": "expect(() => removeDuplicates('not an array')).to.throw('Input must be an array');",
                   "err": {},
-                  "uuid": "fc38b2cb-006f-4931-b822-34cf981630a0",
-                  "parentUUID": "ea2679ef-d553-4c2a-bded-de1db2990349",
+                  "uuid": "840e2552-a56e-47f4-a7a8-67512f4c92ed",
+                  "parentUUID": "62a8b3e2-b2ca-4c35-ab97-8c9fb3ced259",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "fc38b2cb-006f-4931-b822-34cf981630a0"
+                "840e2552-a56e-47f4-a7a8-67512f4c92ed"
               ],
               "failures": [],
               "pending": [],
@@ -348,7 +348,7 @@
               "_timeout": 2000
             },
             {
-              "uuid": "d91d4c61-7fda-4f51-9b62-4b469bb9d3a8",
+              "uuid": "de28ad28-eb64-47c4-b4e9-351977b1f45b",
               "title": "removeDuplicates - empty array",
               "fullFile": "C:\\Test_JS\\test\\arrayUtils.test.js",
               "file": "\\test\\arrayUtils.test.js",
@@ -368,15 +368,15 @@
                   "context": null,
                   "code": "expect(removeDuplicates([])).to.deep.equal([]);",
                   "err": {},
-                  "uuid": "931bfcbd-f74b-4afc-b22d-cd97676235e5",
-                  "parentUUID": "d91d4c61-7fda-4f51-9b62-4b469bb9d3a8",
+                  "uuid": "ff3c2b59-de96-4882-b490-2e525990cfc6",
+                  "parentUUID": "de28ad28-eb64-47c4-b4e9-351977b1f45b",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "931bfcbd-f74b-4afc-b22d-cd97676235e5"
+                "ff3c2b59-de96-4882-b490-2e525990cfc6"
               ],
               "failures": [],
               "pending": [],
@@ -387,7 +387,7 @@
               "_timeout": 2000
             },
             {
-              "uuid": "ba0470de-073a-49cc-8ae7-c43f388b0d34",
+              "uuid": "5e93f270-5bed-4b10-a4a2-d88e11d79f27",
               "title": "removeDuplicates - no duplicates",
               "fullFile": "C:\\Test_JS\\test\\arrayUtils.test.js",
               "file": "\\test\\arrayUtils.test.js",
@@ -407,15 +407,15 @@
                   "context": null,
                   "code": "expect(removeDuplicates([1, 2, 3])).to.deep.equal([1, 2, 3]);",
                   "err": {},
-                  "uuid": "be0a4173-3e73-4957-8af9-be46a5c7fc16",
-                  "parentUUID": "ba0470de-073a-49cc-8ae7-c43f388b0d34",
+                  "uuid": "1b365154-ff2b-4544-9703-85bc5246033b",
+                  "parentUUID": "5e93f270-5bed-4b10-a4a2-d88e11d79f27",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "be0a4173-3e73-4957-8af9-be46a5c7fc16"
+                "1b365154-ff2b-4544-9703-85bc5246033b"
               ],
               "failures": [],
               "pending": [],
@@ -436,7 +436,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "efb9323b-6541-4444-ad16-55903e55e863",
+          "uuid": "a68dd514-c73d-4438-a6ec-50bbce16ee54",
           "title": "Math Utils",
           "fullFile": "C:\\Test_JS\\test\\mathUtils.test.js",
           "file": "\\test\\mathUtils.test.js",
@@ -445,7 +445,7 @@
           "tests": [],
           "suites": [
             {
-              "uuid": "432c6d66-303e-4e94-9ad4-5085e51a011c",
+              "uuid": "a8aced7b-a13f-4653-a293-5d3181a15562",
               "title": "add - positive numbers",
               "fullFile": "C:\\Test_JS\\test\\mathUtils.test.js",
               "file": "\\test\\mathUtils.test.js",
@@ -465,15 +465,15 @@
                   "context": null,
                   "code": "expect(add(2, 3)).to.equal(5);",
                   "err": {},
-                  "uuid": "d657d758-8e9d-44b5-87f2-0fc87d4e414f",
-                  "parentUUID": "432c6d66-303e-4e94-9ad4-5085e51a011c",
+                  "uuid": "201898f6-6bf6-4777-b0bf-23e6d4d20c9b",
+                  "parentUUID": "a8aced7b-a13f-4653-a293-5d3181a15562",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "d657d758-8e9d-44b5-87f2-0fc87d4e414f"
+                "201898f6-6bf6-4777-b0bf-23e6d4d20c9b"
               ],
               "failures": [],
               "pending": [],
@@ -484,7 +484,7 @@
               "_timeout": 2000
             },
             {
-              "uuid": "0ccf7466-1e30-46ab-b42b-601a771dd9e4",
+              "uuid": "35966c1a-997d-40f3-8ba9-acc0c4e096ae",
               "title": "add - negative numbers",
               "fullFile": "C:\\Test_JS\\test\\mathUtils.test.js",
               "file": "\\test\\mathUtils.test.js",
@@ -495,7 +495,7 @@
                   "title": "Adds negative numbers correctly",
                   "fullTitle": "Math Utils add - negative numbers Adds negative numbers correctly",
                   "timedOut": false,
-                  "duration": 0,
+                  "duration": 1,
                   "state": "passed",
                   "speed": "fast",
                   "pass": true,
@@ -504,26 +504,26 @@
                   "context": null,
                   "code": "expect(add(-2, -3)).to.equal(-5);",
                   "err": {},
-                  "uuid": "8d1f3ae8-49e7-4ea7-81a1-9f4fe861e578",
-                  "parentUUID": "0ccf7466-1e30-46ab-b42b-601a771dd9e4",
+                  "uuid": "03981271-e6f7-4d89-a219-99c2e8b8d7ee",
+                  "parentUUID": "35966c1a-997d-40f3-8ba9-acc0c4e096ae",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "8d1f3ae8-49e7-4ea7-81a1-9f4fe861e578"
+                "03981271-e6f7-4d89-a219-99c2e8b8d7ee"
               ],
               "failures": [],
               "pending": [],
               "skipped": [],
-              "duration": 0,
+              "duration": 1,
               "root": false,
               "rootEmpty": false,
               "_timeout": 2000
             },
             {
-              "uuid": "a46a82c0-667d-44f6-97ad-7595eb01a996",
+              "uuid": "50c4a180-e401-4628-b32e-0b09c6c43eb5",
               "title": "add - mixed numbers",
               "fullFile": "C:\\Test_JS\\test\\mathUtils.test.js",
               "file": "\\test\\mathUtils.test.js",
@@ -543,15 +543,15 @@
                   "context": null,
                   "code": "expect(add(2, -3)).to.equal(-1);",
                   "err": {},
-                  "uuid": "29e5d80f-9ce6-42b8-8a69-05dfbdd1ffda",
-                  "parentUUID": "a46a82c0-667d-44f6-97ad-7595eb01a996",
+                  "uuid": "418892ba-d92d-47a8-b194-e5172e1c4346",
+                  "parentUUID": "50c4a180-e401-4628-b32e-0b09c6c43eb5",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "29e5d80f-9ce6-42b8-8a69-05dfbdd1ffda"
+                "418892ba-d92d-47a8-b194-e5172e1c4346"
               ],
               "failures": [],
               "pending": [],
@@ -562,7 +562,7 @@
               "_timeout": 2000
             },
             {
-              "uuid": "b1883530-2e6b-4fa2-b16c-29990eb03967",
+              "uuid": "92ce8aed-c5cf-4f2c-8874-82455ab70d2c",
               "title": "subtract - positive numbers",
               "fullFile": "C:\\Test_JS\\test\\mathUtils.test.js",
               "file": "\\test\\mathUtils.test.js",
@@ -582,15 +582,15 @@
                   "context": null,
                   "code": "expect(subtract(5, 3)).to.equal(2);",
                   "err": {},
-                  "uuid": "1149ea45-fee3-4cb2-9dc4-75caf54d4d60",
-                  "parentUUID": "b1883530-2e6b-4fa2-b16c-29990eb03967",
+                  "uuid": "1b21fb16-71dd-4384-ab7f-682710719173",
+                  "parentUUID": "92ce8aed-c5cf-4f2c-8874-82455ab70d2c",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "1149ea45-fee3-4cb2-9dc4-75caf54d4d60"
+                "1b21fb16-71dd-4384-ab7f-682710719173"
               ],
               "failures": [],
               "pending": [],
@@ -601,7 +601,7 @@
               "_timeout": 2000
             },
             {
-              "uuid": "9733fb00-076a-4f22-851f-94b18505ab67",
+              "uuid": "fd7ae504-5f9e-4d51-aeb9-f9519fbd7d99",
               "title": "subtract - negative numbers",
               "fullFile": "C:\\Test_JS\\test\\mathUtils.test.js",
               "file": "\\test\\mathUtils.test.js",
@@ -621,15 +621,15 @@
                   "context": null,
                   "code": "expect(subtract(-5, -3)).to.equal(-2);",
                   "err": {},
-                  "uuid": "6c5dd45a-e40a-4aba-a991-2803738c0f19",
-                  "parentUUID": "9733fb00-076a-4f22-851f-94b18505ab67",
+                  "uuid": "b32aa1b7-1e6a-46f6-acd5-342a9ceed6e5",
+                  "parentUUID": "fd7ae504-5f9e-4d51-aeb9-f9519fbd7d99",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "6c5dd45a-e40a-4aba-a991-2803738c0f19"
+                "b32aa1b7-1e6a-46f6-acd5-342a9ceed6e5"
               ],
               "failures": [],
               "pending": [],
@@ -640,7 +640,7 @@
               "_timeout": 2000
             },
             {
-              "uuid": "e4b6ced4-eaf1-4639-9dcf-f670f0bcb4a8",
+              "uuid": "4bac8f66-69fe-4dab-895d-9e53f6c234ae",
               "title": "subtract - mixed numbers",
               "fullFile": "C:\\Test_JS\\test\\mathUtils.test.js",
               "file": "\\test\\mathUtils.test.js",
@@ -660,15 +660,15 @@
                   "context": null,
                   "code": "expect(subtract(5, -3)).to.equal(8);",
                   "err": {},
-                  "uuid": "4af59710-cfa3-4dea-95b4-2ef4cef4f6da",
-                  "parentUUID": "e4b6ced4-eaf1-4639-9dcf-f670f0bcb4a8",
+                  "uuid": "1eb90631-feb1-46ea-aae2-7063ed6d27ff",
+                  "parentUUID": "4bac8f66-69fe-4dab-895d-9e53f6c234ae",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "4af59710-cfa3-4dea-95b4-2ef4cef4f6da"
+                "1eb90631-feb1-46ea-aae2-7063ed6d27ff"
               ],
               "failures": [],
               "pending": [],
@@ -679,7 +679,7 @@
               "_timeout": 2000
             },
             {
-              "uuid": "f39739c8-f8ec-4680-81e4-083a6226f00d",
+              "uuid": "a646ba77-8a41-4092-8313-292f88ceb480",
               "title": "multiply - positive numbers",
               "fullFile": "C:\\Test_JS\\test\\mathUtils.test.js",
               "file": "\\test\\mathUtils.test.js",
@@ -699,15 +699,15 @@
                   "context": null,
                   "code": "expect(multiply(2, 3)).to.equal(6);",
                   "err": {},
-                  "uuid": "ebc0aa95-f836-4aec-a357-a962b709ed5e",
-                  "parentUUID": "f39739c8-f8ec-4680-81e4-083a6226f00d",
+                  "uuid": "9b957a9e-d1ac-4db0-ac45-72f145cf8082",
+                  "parentUUID": "a646ba77-8a41-4092-8313-292f88ceb480",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "ebc0aa95-f836-4aec-a357-a962b709ed5e"
+                "9b957a9e-d1ac-4db0-ac45-72f145cf8082"
               ],
               "failures": [],
               "pending": [],
@@ -718,7 +718,7 @@
               "_timeout": 2000
             },
             {
-              "uuid": "ed1934e7-1685-44e7-8ab0-92c552bbdb95",
+              "uuid": "ae8f1e66-649a-4f40-8b36-badde444c2ba",
               "title": "multiply - negative numbers",
               "fullFile": "C:\\Test_JS\\test\\mathUtils.test.js",
               "file": "\\test\\mathUtils.test.js",
@@ -738,15 +738,15 @@
                   "context": null,
                   "code": "expect(multiply(-2, -3)).to.equal(6);",
                   "err": {},
-                  "uuid": "73c97879-453e-44f7-8394-42a48300d2f0",
-                  "parentUUID": "ed1934e7-1685-44e7-8ab0-92c552bbdb95",
+                  "uuid": "ca6207b5-e73b-4b18-816d-878a37db4445",
+                  "parentUUID": "ae8f1e66-649a-4f40-8b36-badde444c2ba",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "73c97879-453e-44f7-8394-42a48300d2f0"
+                "ca6207b5-e73b-4b18-816d-878a37db4445"
               ],
               "failures": [],
               "pending": [],
@@ -757,7 +757,7 @@
               "_timeout": 2000
             },
             {
-              "uuid": "9c81dada-46b5-4645-b5e3-4365c6bbc0ed",
+              "uuid": "e962045c-4fd5-48e9-bf12-cc2096e92774",
               "title": "multiply - mixed numbers",
               "fullFile": "C:\\Test_JS\\test\\mathUtils.test.js",
               "file": "\\test\\mathUtils.test.js",
@@ -777,15 +777,15 @@
                   "context": null,
                   "code": "expect(multiply(2, -3)).to.equal(-6);",
                   "err": {},
-                  "uuid": "df300970-fb01-45e7-be44-6f41c8b8e6f6",
-                  "parentUUID": "9c81dada-46b5-4645-b5e3-4365c6bbc0ed",
+                  "uuid": "cba03e24-8e17-4ffe-9ecd-dbf68c914de8",
+                  "parentUUID": "e962045c-4fd5-48e9-bf12-cc2096e92774",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "df300970-fb01-45e7-be44-6f41c8b8e6f6"
+                "cba03e24-8e17-4ffe-9ecd-dbf68c914de8"
               ],
               "failures": [],
               "pending": [],
@@ -796,7 +796,7 @@
               "_timeout": 2000
             },
             {
-              "uuid": "e6d45b28-c46c-4fad-8779-38c65754f672",
+              "uuid": "fa00cc0c-3734-43c1-b8b9-930dc57ed8fb",
               "title": "divide - positive numbers",
               "fullFile": "C:\\Test_JS\\test\\mathUtils.test.js",
               "file": "\\test\\mathUtils.test.js",
@@ -816,15 +816,15 @@
                   "context": null,
                   "code": "expect(divide(6, 3)).to.equal(2);",
                   "err": {},
-                  "uuid": "56b6226c-9591-455e-87f7-cffcdb29aad8",
-                  "parentUUID": "e6d45b28-c46c-4fad-8779-38c65754f672",
+                  "uuid": "fb83ce08-ed2e-400b-a2c6-196a4f6f953b",
+                  "parentUUID": "fa00cc0c-3734-43c1-b8b9-930dc57ed8fb",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "56b6226c-9591-455e-87f7-cffcdb29aad8"
+                "fb83ce08-ed2e-400b-a2c6-196a4f6f953b"
               ],
               "failures": [],
               "pending": [],
@@ -835,7 +835,7 @@
               "_timeout": 2000
             },
             {
-              "uuid": "6601d014-b93e-4df6-aa02-812281c4668f",
+              "uuid": "81845511-d780-4d20-ae50-a1b78aa2f74d",
               "title": "divide - negative numbers",
               "fullFile": "C:\\Test_JS\\test\\mathUtils.test.js",
               "file": "\\test\\mathUtils.test.js",
@@ -855,15 +855,15 @@
                   "context": null,
                   "code": "expect(divide(-6, -3)).to.equal(2);",
                   "err": {},
-                  "uuid": "6fe80126-7c64-4336-8b9d-63eead6aedf7",
-                  "parentUUID": "6601d014-b93e-4df6-aa02-812281c4668f",
+                  "uuid": "bb414379-5968-4710-8569-601e915367af",
+                  "parentUUID": "81845511-d780-4d20-ae50-a1b78aa2f74d",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "6fe80126-7c64-4336-8b9d-63eead6aedf7"
+                "bb414379-5968-4710-8569-601e915367af"
               ],
               "failures": [],
               "pending": [],
@@ -874,7 +874,7 @@
               "_timeout": 2000
             },
             {
-              "uuid": "0eab1862-c66f-4167-9d72-113412d53556",
+              "uuid": "db8921e4-b282-4c3f-87c7-ca1b76bb1d9f",
               "title": "divide - mixed numbers",
               "fullFile": "C:\\Test_JS\\test\\mathUtils.test.js",
               "file": "\\test\\mathUtils.test.js",
@@ -894,15 +894,15 @@
                   "context": null,
                   "code": "expect(divide(6, -3)).to.equal(-2);",
                   "err": {},
-                  "uuid": "19b7e390-cba0-4ff7-8e9b-e4f14dc80cbf",
-                  "parentUUID": "0eab1862-c66f-4167-9d72-113412d53556",
+                  "uuid": "7ac94bca-a55d-4afc-9f31-b6fdc76ca366",
+                  "parentUUID": "db8921e4-b282-4c3f-87c7-ca1b76bb1d9f",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "19b7e390-cba0-4ff7-8e9b-e4f14dc80cbf"
+                "7ac94bca-a55d-4afc-9f31-b6fdc76ca366"
               ],
               "failures": [],
               "pending": [],
@@ -913,7 +913,7 @@
               "_timeout": 2000
             },
             {
-              "uuid": "9d843af3-7d9a-45d8-a373-b7a24d0f6e41",
+              "uuid": "bd1d6493-47ba-47d6-bc7b-ef24020c3394",
               "title": "divide - division by zero",
               "fullFile": "C:\\Test_JS\\test\\mathUtils.test.js",
               "file": "\\test\\mathUtils.test.js",
@@ -931,17 +931,17 @@
                   "fail": false,
                   "pending": false,
                   "context": null,
-                  "code": "expect(() => divide(6, 0)).to.throw(\"Cannot divide by zero\");",
+                  "code": "expect(() => divide(6, 0)).to.throw('Cannot divide by zero');",
                   "err": {},
-                  "uuid": "db52777b-0de9-4a55-90f8-699678ea95e1",
-                  "parentUUID": "9d843af3-7d9a-45d8-a373-b7a24d0f6e41",
+                  "uuid": "205dccaa-ce45-46ac-8d80-6d20e91c0c63",
+                  "parentUUID": "bd1d6493-47ba-47d6-bc7b-ef24020c3394",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "db52777b-0de9-4a55-90f8-699678ea95e1"
+                "205dccaa-ce45-46ac-8d80-6d20e91c0c63"
               ],
               "failures": [],
               "pending": [],
@@ -962,7 +962,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "75b33dec-c5aa-4c8f-86ab-e3c6c73e31df",
+          "uuid": "16fcdfc3-e66b-4572-91ed-f4876ae32545",
           "title": "String Utils",
           "fullFile": "C:\\Test_JS\\test\\stringUtils.test.js",
           "file": "\\test\\stringUtils.test.js",
@@ -971,7 +971,7 @@
           "tests": [],
           "suites": [
             {
-              "uuid": "f52cdba3-c95c-411c-a2dd-feed24f7fd4e",
+              "uuid": "9ca9a13c-45f4-41a8-a29d-c05ff10ed4c1",
               "title": "capitalize - normal case",
               "fullFile": "C:\\Test_JS\\test\\stringUtils.test.js",
               "file": "\\test\\stringUtils.test.js",
@@ -991,15 +991,15 @@
                   "context": null,
                   "code": "expect(capitalize('hello')).to.equal('Hello');",
                   "err": {},
-                  "uuid": "73112777-d1e0-4574-8aa4-19935f44e844",
-                  "parentUUID": "f52cdba3-c95c-411c-a2dd-feed24f7fd4e",
+                  "uuid": "8bad454f-2531-46ef-bbba-a229c71fa1e3",
+                  "parentUUID": "9ca9a13c-45f4-41a8-a29d-c05ff10ed4c1",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "73112777-d1e0-4574-8aa4-19935f44e844"
+                "8bad454f-2531-46ef-bbba-a229c71fa1e3"
               ],
               "failures": [],
               "pending": [],
@@ -1010,7 +1010,7 @@
               "_timeout": 2000
             },
             {
-              "uuid": "064ea98f-5782-4f0d-bc12-4e25f341d2db",
+              "uuid": "f9b66460-6c61-4c0d-b312-0b7ac5d85218",
               "title": "capitalize - input validation",
               "fullFile": "C:\\Test_JS\\test\\stringUtils.test.js",
               "file": "\\test\\stringUtils.test.js",
@@ -1028,17 +1028,17 @@
                   "fail": false,
                   "pending": false,
                   "context": null,
-                  "code": "expect(() => capitalize(123)).to.throw(\"Input must be a string\");",
+                  "code": "expect(() => capitalize(123)).to.throw('Input must be a string');",
                   "err": {},
-                  "uuid": "83f75b64-2fe3-4bc7-bfd1-58790a1d1f9d",
-                  "parentUUID": "064ea98f-5782-4f0d-bc12-4e25f341d2db",
+                  "uuid": "b710a613-c1ee-435f-a0f7-4c9c06e8da4f",
+                  "parentUUID": "f9b66460-6c61-4c0d-b312-0b7ac5d85218",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "83f75b64-2fe3-4bc7-bfd1-58790a1d1f9d"
+                "b710a613-c1ee-435f-a0f7-4c9c06e8da4f"
               ],
               "failures": [],
               "pending": [],
@@ -1049,7 +1049,7 @@
               "_timeout": 2000
             },
             {
-              "uuid": "9a8d8141-58bc-4fa3-b69d-7b07b5e3f71d",
+              "uuid": "19f495f4-bdde-4391-9388-fa40e1a4806f",
               "title": "capitalize - empty string",
               "fullFile": "C:\\Test_JS\\test\\stringUtils.test.js",
               "file": "\\test\\stringUtils.test.js",
@@ -1060,7 +1060,7 @@
                   "title": "Works with empty string",
                   "fullTitle": "String Utils capitalize - empty string Works with empty string",
                   "timedOut": false,
-                  "duration": 0,
+                  "duration": 1,
                   "state": "passed",
                   "speed": "fast",
                   "pass": true,
@@ -1069,26 +1069,26 @@
                   "context": null,
                   "code": "expect(capitalize('')).to.equal('');",
                   "err": {},
-                  "uuid": "882cf266-caee-44f3-90b5-81c4e8073b1d",
-                  "parentUUID": "9a8d8141-58bc-4fa3-b69d-7b07b5e3f71d",
+                  "uuid": "8273ffb6-0dd9-486f-95be-bfe736c782f8",
+                  "parentUUID": "19f495f4-bdde-4391-9388-fa40e1a4806f",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "882cf266-caee-44f3-90b5-81c4e8073b1d"
+                "8273ffb6-0dd9-486f-95be-bfe736c782f8"
               ],
               "failures": [],
               "pending": [],
               "skipped": [],
-              "duration": 0,
+              "duration": 1,
               "root": false,
               "rootEmpty": false,
               "_timeout": 2000
             },
             {
-              "uuid": "50845bac-5ac7-4e40-88c7-d76c18e25302",
+              "uuid": "dcfb7880-93b4-46d1-8e0b-d83291029210",
               "title": "capitalize - single letter",
               "fullFile": "C:\\Test_JS\\test\\stringUtils.test.js",
               "file": "\\test\\stringUtils.test.js",
@@ -1108,15 +1108,15 @@
                   "context": null,
                   "code": "expect(capitalize('a')).to.equal('A');",
                   "err": {},
-                  "uuid": "22713126-aa6e-4f60-8f13-2d7bf29c50f5",
-                  "parentUUID": "50845bac-5ac7-4e40-88c7-d76c18e25302",
+                  "uuid": "9b6f1077-05ba-43d6-be26-f87d5df3ac38",
+                  "parentUUID": "dcfb7880-93b4-46d1-8e0b-d83291029210",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "22713126-aa6e-4f60-8f13-2d7bf29c50f5"
+                "9b6f1077-05ba-43d6-be26-f87d5df3ac38"
               ],
               "failures": [],
               "pending": [],
@@ -1127,7 +1127,7 @@
               "_timeout": 2000
             },
             {
-              "uuid": "85e39ff3-e561-45fd-924a-26ed1c787faa",
+              "uuid": "59385201-90d2-4a74-9a8f-e7f2dfecf893",
               "title": "reverseString - normal case",
               "fullFile": "C:\\Test_JS\\test\\stringUtils.test.js",
               "file": "\\test\\stringUtils.test.js",
@@ -1147,15 +1147,15 @@
                   "context": null,
                   "code": "expect(reverseString('hello')).to.equal('olleh');",
                   "err": {},
-                  "uuid": "828912c2-e3ae-4963-9ac9-14d7473984ed",
-                  "parentUUID": "85e39ff3-e561-45fd-924a-26ed1c787faa",
+                  "uuid": "6e625f2d-ad56-4b6e-ba77-01d8d116a566",
+                  "parentUUID": "59385201-90d2-4a74-9a8f-e7f2dfecf893",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "828912c2-e3ae-4963-9ac9-14d7473984ed"
+                "6e625f2d-ad56-4b6e-ba77-01d8d116a566"
               ],
               "failures": [],
               "pending": [],
@@ -1166,7 +1166,7 @@
               "_timeout": 2000
             },
             {
-              "uuid": "7a7ad0a8-566f-4b4d-b9a3-111695d5acfe",
+              "uuid": "249e593c-8c89-485b-bf78-84c8734d19da",
               "title": "reverseString - input validation",
               "fullFile": "C:\\Test_JS\\test\\stringUtils.test.js",
               "file": "\\test\\stringUtils.test.js",
@@ -1184,17 +1184,17 @@
                   "fail": false,
                   "pending": false,
                   "context": null,
-                  "code": "expect(() => reverseString(123)).to.throw(\"Input must be a string\");",
+                  "code": "expect(() => reverseString(123)).to.throw('Input must be a string');",
                   "err": {},
-                  "uuid": "61f49e51-7348-4c88-980d-40c7b9257842",
-                  "parentUUID": "7a7ad0a8-566f-4b4d-b9a3-111695d5acfe",
+                  "uuid": "6e15414d-2c76-4e0e-a856-d3aaf9a8a792",
+                  "parentUUID": "249e593c-8c89-485b-bf78-84c8734d19da",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "61f49e51-7348-4c88-980d-40c7b9257842"
+                "6e15414d-2c76-4e0e-a856-d3aaf9a8a792"
               ],
               "failures": [],
               "pending": [],
@@ -1205,7 +1205,7 @@
               "_timeout": 2000
             },
             {
-              "uuid": "12da133b-14e2-45a2-abc1-6353d5c500e4",
+              "uuid": "41944e1d-7899-4c1d-b952-45493be32670",
               "title": "reverseString - empty string",
               "fullFile": "C:\\Test_JS\\test\\stringUtils.test.js",
               "file": "\\test\\stringUtils.test.js",
@@ -1225,15 +1225,15 @@
                   "context": null,
                   "code": "expect(reverseString('')).to.equal('');",
                   "err": {},
-                  "uuid": "8cf650f7-c958-4c79-ab7f-bdf42f89c621",
-                  "parentUUID": "12da133b-14e2-45a2-abc1-6353d5c500e4",
+                  "uuid": "577b42fd-fc16-46e7-98aa-edeef485c1d7",
+                  "parentUUID": "41944e1d-7899-4c1d-b952-45493be32670",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "8cf650f7-c958-4c79-ab7f-bdf42f89c621"
+                "577b42fd-fc16-46e7-98aa-edeef485c1d7"
               ],
               "failures": [],
               "pending": [],
@@ -1244,7 +1244,7 @@
               "_timeout": 2000
             },
             {
-              "uuid": "25bfce62-58fe-44a6-9664-2883a5611193",
+              "uuid": "afe1553e-2ad7-445d-996f-9a27f23069b3",
               "title": "reverseString - palindrome",
               "fullFile": "C:\\Test_JS\\test\\stringUtils.test.js",
               "file": "\\test\\stringUtils.test.js",
@@ -1264,15 +1264,15 @@
                   "context": null,
                   "code": "expect(reverseString('level')).to.equal('level');",
                   "err": {},
-                  "uuid": "6cd37e4a-c906-404e-b49e-3b1ed80af919",
-                  "parentUUID": "25bfce62-58fe-44a6-9664-2883a5611193",
+                  "uuid": "fc107f10-fe04-46c2-b8bd-ad5cd7751ce9",
+                  "parentUUID": "afe1553e-2ad7-445d-996f-9a27f23069b3",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "6cd37e4a-c906-404e-b49e-3b1ed80af919"
+                "fc107f10-fe04-46c2-b8bd-ad5cd7751ce9"
               ],
               "failures": [],
               "pending": [],
@@ -1283,7 +1283,7 @@
               "_timeout": 2000
             },
             {
-              "uuid": "9e909370-d55c-4df5-9f68-32d0f7c2b8bd",
+              "uuid": "bb8400d7-2abc-45bd-9549-9d0c5a90b0ec",
               "title": "isPalindrome - true case",
               "fullFile": "C:\\Test_JS\\test\\stringUtils.test.js",
               "file": "\\test\\stringUtils.test.js",
@@ -1303,15 +1303,15 @@
                   "context": null,
                   "code": "expect(isPalindrome('level')).to.equal(true);",
                   "err": {},
-                  "uuid": "f37203d5-3345-4853-9bba-0d03fb68ac73",
-                  "parentUUID": "9e909370-d55c-4df5-9f68-32d0f7c2b8bd",
+                  "uuid": "ac2f4268-b541-4033-8a3a-e10f3230809f",
+                  "parentUUID": "bb8400d7-2abc-45bd-9549-9d0c5a90b0ec",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "f37203d5-3345-4853-9bba-0d03fb68ac73"
+                "ac2f4268-b541-4033-8a3a-e10f3230809f"
               ],
               "failures": [],
               "pending": [],
@@ -1322,7 +1322,7 @@
               "_timeout": 2000
             },
             {
-              "uuid": "49897357-2899-4a7c-9ef8-0ce1f9c8c839",
+              "uuid": "682b48bc-5e97-434b-a159-ca2c3659ba6c",
               "title": "isPalindrome - false case",
               "fullFile": "C:\\Test_JS\\test\\stringUtils.test.js",
               "file": "\\test\\stringUtils.test.js",
@@ -1342,15 +1342,15 @@
                   "context": null,
                   "code": "expect(isPalindrome('hello')).to.equal(false);",
                   "err": {},
-                  "uuid": "6a7b53d3-e1b7-43c6-808d-b2c2f81f27fd",
-                  "parentUUID": "49897357-2899-4a7c-9ef8-0ce1f9c8c839",
+                  "uuid": "ece67f01-c594-40a5-9482-69b80620b866",
+                  "parentUUID": "682b48bc-5e97-434b-a159-ca2c3659ba6c",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "6a7b53d3-e1b7-43c6-808d-b2c2f81f27fd"
+                "ece67f01-c594-40a5-9482-69b80620b866"
               ],
               "failures": [],
               "pending": [],
@@ -1361,7 +1361,7 @@
               "_timeout": 2000
             },
             {
-              "uuid": "f2cb6601-7b7c-44eb-861d-3b5ce86ae108",
+              "uuid": "38fc861a-0a33-485b-955c-73a1d896e845",
               "title": "isPalindrome - input validation",
               "fullFile": "C:\\Test_JS\\test\\stringUtils.test.js",
               "file": "\\test\\stringUtils.test.js",
@@ -1372,35 +1372,35 @@
                   "title": "Throws error if input is not a string",
                   "fullTitle": "String Utils isPalindrome - input validation Throws error if input is not a string",
                   "timedOut": false,
-                  "duration": 0,
+                  "duration": 1,
                   "state": "passed",
                   "speed": "fast",
                   "pass": true,
                   "fail": false,
                   "pending": false,
                   "context": null,
-                  "code": "expect(() => isPalindrome(123)).to.throw(\"Input must be a string\");",
+                  "code": "expect(() => isPalindrome(123)).to.throw('Input must be a string');",
                   "err": {},
-                  "uuid": "d2b5694a-4106-4bf3-9b84-19b4bbd04d63",
-                  "parentUUID": "f2cb6601-7b7c-44eb-861d-3b5ce86ae108",
+                  "uuid": "a8c02459-2b95-48ed-a4d8-821d3065eb10",
+                  "parentUUID": "38fc861a-0a33-485b-955c-73a1d896e845",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "d2b5694a-4106-4bf3-9b84-19b4bbd04d63"
+                "a8c02459-2b95-48ed-a4d8-821d3065eb10"
               ],
               "failures": [],
               "pending": [],
               "skipped": [],
-              "duration": 0,
+              "duration": 1,
               "root": false,
               "rootEmpty": false,
               "_timeout": 2000
             },
             {
-              "uuid": "716fe6c4-9a04-4b22-b4db-9f5ff728d2c4",
+              "uuid": "dc6b4b7e-72f0-463d-a993-e6513e3844ae",
               "title": "isPalindrome - empty string",
               "fullFile": "C:\\Test_JS\\test\\stringUtils.test.js",
               "file": "\\test\\stringUtils.test.js",
@@ -1420,15 +1420,15 @@
                   "context": null,
                   "code": "expect(isPalindrome('')).to.equal(true);",
                   "err": {},
-                  "uuid": "38665354-e25d-4e74-b4d4-a7e994dd4024",
-                  "parentUUID": "716fe6c4-9a04-4b22-b4db-9f5ff728d2c4",
+                  "uuid": "d6e98171-85df-4b7e-be24-fc5f74589a06",
+                  "parentUUID": "dc6b4b7e-72f0-463d-a993-e6513e3844ae",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "38665354-e25d-4e74-b4d4-a7e994dd4024"
+                "d6e98171-85df-4b7e-be24-fc5f74589a06"
               ],
               "failures": [],
               "pending": [],
@@ -1439,7 +1439,7 @@
               "_timeout": 2000
             },
             {
-              "uuid": "b2cbb96c-8257-43e7-b020-74d1b7c109bd",
+              "uuid": "e4d50c8d-4541-4026-bda1-8c79b224a4d5",
               "title": "isPalindrome - single letter",
               "fullFile": "C:\\Test_JS\\test\\stringUtils.test.js",
               "file": "\\test\\stringUtils.test.js",
@@ -1459,15 +1459,15 @@
                   "context": null,
                   "code": "expect(isPalindrome('a')).to.equal(true);",
                   "err": {},
-                  "uuid": "e08c81c2-c700-4a63-aa6d-0d67ea05bc06",
-                  "parentUUID": "b2cbb96c-8257-43e7-b020-74d1b7c109bd",
+                  "uuid": "7eae7c93-685c-4071-a614-709175636b7b",
+                  "parentUUID": "e4d50c8d-4541-4026-bda1-8c79b224a4d5",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "e08c81c2-c700-4a63-aa6d-0d67ea05bc06"
+                "7eae7c93-685c-4071-a614-709175636b7b"
               ],
               "failures": [],
               "pending": [],
@@ -1488,7 +1488,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "431a5849-9503-4c4c-b634-86733c65a684",
+          "uuid": "82cbb7c8-6ecd-4937-8774-203f37793232",
           "title": "Student Knowledge Checker",
           "fullFile": "C:\\Test_JS\\test\\studentKnowledgeChecker.test.js",
           "file": "\\test\\studentKnowledgeChecker.test.js",
@@ -1497,7 +1497,7 @@
           "tests": [],
           "suites": [
             {
-              "uuid": "f9e9cdaa-da55-41b5-887d-1a88ec01a4bc",
+              "uuid": "c3baa3a7-adef-47a7-a08e-836c8efa066f",
               "title": "checkStudentKnowledge - all answers correct",
               "fullFile": "C:\\Test_JS\\test\\studentKnowledgeChecker.test.js",
               "file": "\\test\\studentKnowledgeChecker.test.js",
@@ -1508,35 +1508,35 @@
                   "title": "Returns true if all answers are correct",
                   "fullTitle": "Student Knowledge Checker checkStudentKnowledge - all answers correct Returns true if all answers are correct",
                   "timedOut": false,
-                  "duration": 1,
+                  "duration": 0,
                   "state": "passed",
                   "speed": "fast",
                   "pass": true,
                   "fail": false,
                   "pending": false,
                   "context": null,
-                  "code": "const studentAnswers = { \n  question1: \"answer1\", \n  question2: \"answer2\" \n};\nconst correctAnswers = { \n  question1: \"answer1\", \n  question2: \"answer2\" \n};\nexpect(checkStudentKnowledge(studentAnswers, correctAnswers)).to.equal(true);",
+                  "code": "const studentAnswers = {\n  question1: 'answer1',\n  question2: 'answer2',\n};\nconst correctAnswers = {\n  question1: 'answer1',\n  question2: 'answer2',\n};\nexpect(checkStudentKnowledge(studentAnswers, correctAnswers)).to.equal(true);",
                   "err": {},
-                  "uuid": "ee55e560-000a-4d65-880d-5d14b209ce4f",
-                  "parentUUID": "f9e9cdaa-da55-41b5-887d-1a88ec01a4bc",
+                  "uuid": "b2a84fc7-43aa-47b0-963e-e3d5e00bfc8c",
+                  "parentUUID": "c3baa3a7-adef-47a7-a08e-836c8efa066f",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "ee55e560-000a-4d65-880d-5d14b209ce4f"
+                "b2a84fc7-43aa-47b0-963e-e3d5e00bfc8c"
               ],
               "failures": [],
               "pending": [],
               "skipped": [],
-              "duration": 1,
+              "duration": 0,
               "root": false,
               "rootEmpty": false,
               "_timeout": 2000
             },
             {
-              "uuid": "d7eb7a99-70d4-4928-94ef-c32a4f38ce5b",
+              "uuid": "283658b6-7753-439a-b363-17e0fbf3feaa",
               "title": "checkStudentKnowledge - incorrect answer value",
               "fullFile": "C:\\Test_JS\\test\\studentKnowledgeChecker.test.js",
               "file": "\\test\\studentKnowledgeChecker.test.js",
@@ -1554,17 +1554,17 @@
                   "fail": false,
                   "pending": false,
                   "context": null,
-                  "code": "const studentAnswers = { \n  question1: \"answer1\", \n  question2: \"wrong\" \n};\nconst correctAnswers = { \n  question1: \"answer1\", \n  question2: \"answer2\" \n};\nexpect(checkStudentKnowledge(studentAnswers, correctAnswers)).to.equal(false);",
+                  "code": "const studentAnswers = {\n  question1: 'answer1',\n  question2: 'wrong',\n};\nconst correctAnswers = {\n  question1: 'answer1',\n  question2: 'answer2',\n};\nexpect(checkStudentKnowledge(studentAnswers, correctAnswers)).to.equal(false);",
                   "err": {},
-                  "uuid": "6e0a0867-17cf-4fbf-be02-08d746243555",
-                  "parentUUID": "d7eb7a99-70d4-4928-94ef-c32a4f38ce5b",
+                  "uuid": "3cb271e6-b2b7-487c-b5db-6fa62e78cd59",
+                  "parentUUID": "283658b6-7753-439a-b363-17e0fbf3feaa",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "6e0a0867-17cf-4fbf-be02-08d746243555"
+                "3cb271e6-b2b7-487c-b5db-6fa62e78cd59"
               ],
               "failures": [],
               "pending": [],
@@ -1575,7 +1575,7 @@
               "_timeout": 2000
             },
             {
-              "uuid": "1f198d71-8f00-434e-bb77-4044794078d1",
+              "uuid": "f7304d16-0248-4211-a317-d4593d63b463",
               "title": "checkStudentKnowledge - different number of answers",
               "fullFile": "C:\\Test_JS\\test\\studentKnowledgeChecker.test.js",
               "file": "\\test\\studentKnowledgeChecker.test.js",
@@ -1586,35 +1586,35 @@
                   "title": "Returns false if number of answers doesn't match",
                   "fullTitle": "Student Knowledge Checker checkStudentKnowledge - different number of answers Returns false if number of answers doesn't match",
                   "timedOut": false,
-                  "duration": 0,
+                  "duration": 1,
                   "state": "passed",
                   "speed": "fast",
                   "pass": true,
                   "fail": false,
                   "pending": false,
                   "context": null,
-                  "code": "const studentAnswers = { \n  question1: \"answer1\"\n};\nconst correctAnswers = { \n  question1: \"answer1\", \n  question2: \"answer2\" \n};\nexpect(checkStudentKnowledge(studentAnswers, correctAnswers)).to.equal(false);",
+                  "code": "const studentAnswers = {\n  question1: 'answer1',\n};\nconst correctAnswers = {\n  question1: 'answer1',\n  question2: 'answer2',\n};\nexpect(checkStudentKnowledge(studentAnswers, correctAnswers)).to.equal(false);",
                   "err": {},
-                  "uuid": "2bdc4cee-c9db-481b-ab05-54d28d4d1daf",
-                  "parentUUID": "1f198d71-8f00-434e-bb77-4044794078d1",
+                  "uuid": "a70a74f6-99de-4efc-a5e9-bcc106d5141f",
+                  "parentUUID": "f7304d16-0248-4211-a317-d4593d63b463",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "2bdc4cee-c9db-481b-ab05-54d28d4d1daf"
+                "a70a74f6-99de-4efc-a5e9-bcc106d5141f"
               ],
               "failures": [],
               "pending": [],
               "skipped": [],
-              "duration": 0,
+              "duration": 1,
               "root": false,
               "rootEmpty": false,
               "_timeout": 2000
             },
             {
-              "uuid": "8823c95f-4425-468e-ac23-dc5144642bbf",
+              "uuid": "3fe34078-c4c2-43a3-aa1b-8512d417983d",
               "title": "checkStudentKnowledge - different question keys",
               "fullFile": "C:\\Test_JS\\test\\studentKnowledgeChecker.test.js",
               "file": "\\test\\studentKnowledgeChecker.test.js",
@@ -1632,17 +1632,17 @@
                   "fail": false,
                   "pending": false,
                   "context": null,
-                  "code": "const studentAnswers = { \n  question1: \"answer1\", \n  wrongKey: \"answer2\" \n};\nconst correctAnswers = { \n  question1: \"answer1\", \n  question2: \"answer2\" \n};\nexpect(checkStudentKnowledge(studentAnswers, correctAnswers)).to.equal(false);",
+                  "code": "const studentAnswers = {\n  question1: 'answer1',\n  wrongKey: 'answer2',\n};\nconst correctAnswers = {\n  question1: 'answer1',\n  question2: 'answer2',\n};\nexpect(checkStudentKnowledge(studentAnswers, correctAnswers)).to.equal(false);",
                   "err": {},
-                  "uuid": "8d22a0a2-0197-41dd-a6c5-1c1b41a858ef",
-                  "parentUUID": "8823c95f-4425-468e-ac23-dc5144642bbf",
+                  "uuid": "58836f6b-cfb8-44f3-9cf9-a000365548eb",
+                  "parentUUID": "3fe34078-c4c2-43a3-aa1b-8512d417983d",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "8d22a0a2-0197-41dd-a6c5-1c1b41a858ef"
+                "58836f6b-cfb8-44f3-9cf9-a000365548eb"
               ],
               "failures": [],
               "pending": [],
@@ -1653,7 +1653,7 @@
               "_timeout": 2000
             },
             {
-              "uuid": "e378fc6c-c0c0-4b0f-848c-766ef402ae00",
+              "uuid": "62c74573-f8d2-4c66-ab14-d5a1f69c7a60",
               "title": "checkStudentKnowledge - empty objects",
               "fullFile": "C:\\Test_JS\\test\\studentKnowledgeChecker.test.js",
               "file": "\\test\\studentKnowledgeChecker.test.js",
@@ -1673,15 +1673,15 @@
                   "context": null,
                   "code": "expect(checkStudentKnowledge({}, {})).to.equal(true);",
                   "err": {},
-                  "uuid": "8cf08eb6-20f1-444b-a9e9-6d3af1d1908e",
-                  "parentUUID": "e378fc6c-c0c0-4b0f-848c-766ef402ae00",
+                  "uuid": "8309d445-c858-471a-b042-a6b660fab425",
+                  "parentUUID": "62c74573-f8d2-4c66-ab14-d5a1f69c7a60",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "8cf08eb6-20f1-444b-a9e9-6d3af1d1908e"
+                "8309d445-c858-471a-b042-a6b660fab425"
               ],
               "failures": [],
               "pending": [],
@@ -1702,7 +1702,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "7649db1e-6d0c-4006-aae6-7a16a31b256f",
+          "uuid": "9649e23b-b08b-4f1a-b83f-aed3003d554e",
           "title": "Users List Utils",
           "fullFile": "C:\\Test_JS\\test\\usersListUtils.test.js",
           "file": "\\test\\usersListUtils.test.js",
@@ -1711,7 +1711,7 @@
           "tests": [],
           "suites": [
             {
-              "uuid": "89bbff27-0076-487c-b1c8-381298b81f96",
+              "uuid": "430aae42-0d8d-4bd9-a4c1-d3057930a948",
               "title": "filterUsersByAge - normal case",
               "fullFile": "C:\\Test_JS\\test\\usersListUtils.test.js",
               "file": "\\test\\usersListUtils.test.js",
@@ -1722,35 +1722,35 @@
                   "title": "Filters users by age",
                   "fullTitle": "Users List Utils filterUsersByAge - normal case Filters users by age",
                   "timedOut": false,
-                  "duration": 0,
+                  "duration": 1,
                   "state": "passed",
                   "speed": "fast",
                   "pass": true,
                   "fail": false,
                   "pending": false,
                   "context": null,
-                  "code": "const result = filterUsersByAge(users, 25, 30);\nexpect(result).to.deep.equal([\n  { id: 1, name: \"John\", age: 25, email: \"john@example.com\" },\n  { id: 2, name: \"Anna\", age: 30, email: \"anna@example.com\" }\n]);",
+                  "code": "const result = filterUsersByAge(users, 25, 30);\nexpect(result).to.deep.equal([\n  { id: 1, name: 'John', age: 25, email: 'john@example.com' },\n  { id: 2, name: 'Anna', age: 30, email: 'anna@example.com' },\n]);",
                   "err": {},
-                  "uuid": "3989ce81-14fb-498a-a2ac-1a6b30a91f52",
-                  "parentUUID": "89bbff27-0076-487c-b1c8-381298b81f96",
+                  "uuid": "b386bc3a-a72a-43d9-9c16-a1e1681279d3",
+                  "parentUUID": "430aae42-0d8d-4bd9-a4c1-d3057930a948",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "3989ce81-14fb-498a-a2ac-1a6b30a91f52"
+                "b386bc3a-a72a-43d9-9c16-a1e1681279d3"
               ],
               "failures": [],
               "pending": [],
               "skipped": [],
-              "duration": 0,
+              "duration": 1,
               "root": false,
               "rootEmpty": false,
               "_timeout": 2000
             },
             {
-              "uuid": "4d93686b-155c-4d1a-91bd-6cbd7030f7e7",
+              "uuid": "00f9a99f-9075-4156-a467-a10347f66ca1",
               "title": "filterUsersByAge - no matches",
               "fullFile": "C:\\Test_JS\\test\\usersListUtils.test.js",
               "file": "\\test\\usersListUtils.test.js",
@@ -1770,15 +1770,15 @@
                   "context": null,
                   "code": "const result = filterUsersByAge(users, 40, 50);\nexpect(result).to.deep.equal([]);",
                   "err": {},
-                  "uuid": "12eb9920-ec44-491c-a566-024dec24855b",
-                  "parentUUID": "4d93686b-155c-4d1a-91bd-6cbd7030f7e7",
+                  "uuid": "90a10e42-4acc-43b4-a3cc-6e0b21dcbe55",
+                  "parentUUID": "00f9a99f-9075-4156-a467-a10347f66ca1",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "12eb9920-ec44-491c-a566-024dec24855b"
+                "90a10e42-4acc-43b4-a3cc-6e0b21dcbe55"
               ],
               "failures": [],
               "pending": [],
@@ -1789,7 +1789,7 @@
               "_timeout": 2000
             },
             {
-              "uuid": "128e184d-5de1-4007-b6d8-1ddf4da346d0",
+              "uuid": "07b60d88-a68c-4d1f-90fc-6b9751dc7288",
               "title": "filterUsersByAge - input validation",
               "fullFile": "C:\\Test_JS\\test\\usersListUtils.test.js",
               "file": "\\test\\usersListUtils.test.js",
@@ -1807,17 +1807,17 @@
                   "fail": false,
                   "pending": false,
                   "context": null,
-                  "code": "expect(() => filterUsersByAge(\"not an array\", 25, 30)).to.throw(\"Users must be an array\");",
+                  "code": "expect(() => filterUsersByAge('not an array', 25, 30)).to.throw('Users must be an array');",
                   "err": {},
-                  "uuid": "8661a14d-94fa-4b3e-8b8d-4e51ecf8eccf",
-                  "parentUUID": "128e184d-5de1-4007-b6d8-1ddf4da346d0",
+                  "uuid": "21b48048-da6a-4338-94fe-b3d8309afdb9",
+                  "parentUUID": "07b60d88-a68c-4d1f-90fc-6b9751dc7288",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "8661a14d-94fa-4b3e-8b8d-4e51ecf8eccf"
+                "21b48048-da6a-4338-94fe-b3d8309afdb9"
               ],
               "failures": [],
               "pending": [],
@@ -1828,7 +1828,7 @@
               "_timeout": 2000
             },
             {
-              "uuid": "bca6777f-4f73-4471-abc3-0ba6659cc076",
+              "uuid": "8e88a697-9e4f-42b4-9699-150415495b14",
               "title": "filterUsersByAge - empty array",
               "fullFile": "C:\\Test_JS\\test\\usersListUtils.test.js",
               "file": "\\test\\usersListUtils.test.js",
@@ -1848,15 +1848,15 @@
                   "context": null,
                   "code": "expect(filterUsersByAge([], 25, 30)).to.deep.equal([]);",
                   "err": {},
-                  "uuid": "2f0d4447-7709-4f53-845a-b0108dff5624",
-                  "parentUUID": "bca6777f-4f73-4471-abc3-0ba6659cc076",
+                  "uuid": "cadb840c-16e8-46e8-8b2f-acbe4691e964",
+                  "parentUUID": "8e88a697-9e4f-42b4-9699-150415495b14",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "2f0d4447-7709-4f53-845a-b0108dff5624"
+                "cadb840c-16e8-46e8-8b2f-acbe4691e964"
               ],
               "failures": [],
               "pending": [],
@@ -1867,7 +1867,7 @@
               "_timeout": 2000
             },
             {
-              "uuid": "3af880c1-21c1-4ac7-8d4e-698749187fb0",
+              "uuid": "b3828189-a058-406b-81a3-9d10c53ffc54",
               "title": "filterUsersByAge - boundary values",
               "fullFile": "C:\\Test_JS\\test\\usersListUtils.test.js",
               "file": "\\test\\usersListUtils.test.js",
@@ -1878,45 +1878,6 @@
                   "title": "Includes users at boundary ages",
                   "fullTitle": "Users List Utils filterUsersByAge - boundary values Includes users at boundary ages",
                   "timedOut": false,
-                  "duration": 1,
-                  "state": "passed",
-                  "speed": "fast",
-                  "pass": true,
-                  "fail": false,
-                  "pending": false,
-                  "context": null,
-                  "code": "const result = filterUsersByAge(users, 20, 25);\nexpect(result).to.deep.equal([\n  { id: 1, name: \"John\", age: 25, email: \"john@example.com\" },\n  { id: 3, name: \"Bob\", age: 20, email: \"bob@example.com\" }\n]);",
-                  "err": {},
-                  "uuid": "2a33c9ed-2de8-42a9-980b-b10c16f355af",
-                  "parentUUID": "3af880c1-21c1-4ac7-8d4e-698749187fb0",
-                  "isHook": false,
-                  "skipped": false
-                }
-              ],
-              "suites": [],
-              "passes": [
-                "2a33c9ed-2de8-42a9-980b-b10c16f355af"
-              ],
-              "failures": [],
-              "pending": [],
-              "skipped": [],
-              "duration": 1,
-              "root": false,
-              "rootEmpty": false,
-              "_timeout": 2000
-            },
-            {
-              "uuid": "1ff79703-1796-4c4d-a7f9-ad0c0b475282",
-              "title": "sortUsersByName - normal case",
-              "fullFile": "C:\\Test_JS\\test\\usersListUtils.test.js",
-              "file": "\\test\\usersListUtils.test.js",
-              "beforeHooks": [],
-              "afterHooks": [],
-              "tests": [
-                {
-                  "title": "Sorts users by name",
-                  "fullTitle": "Users List Utils sortUsersByName - normal case Sorts users by name",
-                  "timedOut": false,
                   "duration": 0,
                   "state": "passed",
                   "speed": "fast",
@@ -1924,17 +1885,17 @@
                   "fail": false,
                   "pending": false,
                   "context": null,
-                  "code": "const result = sortUsersByName(users);\nexpect(result).to.deep.equal([\n  { id: 2, name: \"Anna\", age: 30, email: \"anna@example.com\" },\n  { id: 3, name: \"Bob\", age: 20, email: \"bob@example.com\" },\n  { id: 1, name: \"John\", age: 25, email: \"john@example.com\" }\n]);",
+                  "code": "const result = filterUsersByAge(users, 20, 25);\nexpect(result).to.deep.equal([\n  { id: 1, name: 'John', age: 25, email: 'john@example.com' },\n  { id: 3, name: 'Bob', age: 20, email: 'bob@example.com' },\n]);",
                   "err": {},
-                  "uuid": "a378be8d-00bd-4195-9aa2-5fae8f81328e",
-                  "parentUUID": "1ff79703-1796-4c4d-a7f9-ad0c0b475282",
+                  "uuid": "94521c3a-c77a-436f-af9e-1500ebc5e51a",
+                  "parentUUID": "b3828189-a058-406b-81a3-9d10c53ffc54",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "a378be8d-00bd-4195-9aa2-5fae8f81328e"
+                "94521c3a-c77a-436f-af9e-1500ebc5e51a"
               ],
               "failures": [],
               "pending": [],
@@ -1945,7 +1906,46 @@
               "_timeout": 2000
             },
             {
-              "uuid": "7656f20e-7f44-436d-8a8e-00d98a9a7aa3",
+              "uuid": "a6fa2933-cb51-4263-adf6-975599e0eba4",
+              "title": "sortUsersByName - normal case",
+              "fullFile": "C:\\Test_JS\\test\\usersListUtils.test.js",
+              "file": "\\test\\usersListUtils.test.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "Sorts users by name",
+                  "fullTitle": "Users List Utils sortUsersByName - normal case Sorts users by name",
+                  "timedOut": false,
+                  "duration": 1,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "const result = sortUsersByName(users);\nexpect(result).to.deep.equal([\n  { id: 2, name: 'Anna', age: 30, email: 'anna@example.com' },\n  { id: 3, name: 'Bob', age: 20, email: 'bob@example.com' },\n  { id: 1, name: 'John', age: 25, email: 'john@example.com' },\n]);",
+                  "err": {},
+                  "uuid": "5b7d8a4e-4429-4b8e-ae36-5cb7fda59b4b",
+                  "parentUUID": "a6fa2933-cb51-4263-adf6-975599e0eba4",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "5b7d8a4e-4429-4b8e-ae36-5cb7fda59b4b"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 1,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            },
+            {
+              "uuid": "ce54d8ae-c911-4beb-b1a5-568f072b9d6f",
               "title": "sortUsersByName - input validation",
               "fullFile": "C:\\Test_JS\\test\\usersListUtils.test.js",
               "file": "\\test\\usersListUtils.test.js",
@@ -1963,17 +1963,17 @@
                   "fail": false,
                   "pending": false,
                   "context": null,
-                  "code": "expect(() => sortUsersByName(\"not an array\")).to.throw(\"Users must be an array\");",
+                  "code": "expect(() => sortUsersByName('not an array')).to.throw('Users must be an array');",
                   "err": {},
-                  "uuid": "f8ff037d-bc73-46b5-8e6c-f9b3adbb9904",
-                  "parentUUID": "7656f20e-7f44-436d-8a8e-00d98a9a7aa3",
+                  "uuid": "27109fe2-ed44-4745-8c2e-cd237d389d08",
+                  "parentUUID": "ce54d8ae-c911-4beb-b1a5-568f072b9d6f",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "f8ff037d-bc73-46b5-8e6c-f9b3adbb9904"
+                "27109fe2-ed44-4745-8c2e-cd237d389d08"
               ],
               "failures": [],
               "pending": [],
@@ -1984,7 +1984,7 @@
               "_timeout": 2000
             },
             {
-              "uuid": "409f5eed-546f-4710-8fe2-7d92c36170b5",
+              "uuid": "952dddca-0482-472e-b52f-92702db8bee3",
               "title": "sortUsersByName - empty array",
               "fullFile": "C:\\Test_JS\\test\\usersListUtils.test.js",
               "file": "\\test\\usersListUtils.test.js",
@@ -2004,15 +2004,15 @@
                   "context": null,
                   "code": "expect(sortUsersByName([])).to.deep.equal([]);",
                   "err": {},
-                  "uuid": "9b23d94a-d556-475e-81a1-18d5ad3f1d82",
-                  "parentUUID": "409f5eed-546f-4710-8fe2-7d92c36170b5",
+                  "uuid": "162eba1b-f49e-4915-a37c-fa5ac291884e",
+                  "parentUUID": "952dddca-0482-472e-b52f-92702db8bee3",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "9b23d94a-d556-475e-81a1-18d5ad3f1d82"
+                "162eba1b-f49e-4915-a37c-fa5ac291884e"
               ],
               "failures": [],
               "pending": [],
@@ -2023,7 +2023,7 @@
               "_timeout": 2000
             },
             {
-              "uuid": "b3148588-7ca4-4f35-b6b0-83771173ae7d",
+              "uuid": "39ecb322-c935-430a-9aa1-24f72cd23db4",
               "title": "sortUsersByName - same names",
               "fullFile": "C:\\Test_JS\\test\\usersListUtils.test.js",
               "file": "\\test\\usersListUtils.test.js",
@@ -2041,17 +2041,17 @@
                   "fail": false,
                   "pending": false,
                   "context": null,
-                  "code": "const usersWithSameNames = [\n  { id: 1, name: \"John\", age: 25, email: \"john1@example.com\" },\n  { id: 2, name: \"John\", age: 30, email: \"john2@example.com\" }\n];\nconst result = sortUsersByName(usersWithSameNames);\nexpect(result).to.deep.equal(usersWithSameNames);",
+                  "code": "const usersWithSameNames = [\n  { id: 1, name: 'John', age: 25, email: 'john1@example.com' },\n  { id: 2, name: 'John', age: 30, email: 'john2@example.com' },\n];\nconst result = sortUsersByName(usersWithSameNames);\nexpect(result).to.deep.equal(usersWithSameNames);",
                   "err": {},
-                  "uuid": "83175b50-814d-4c15-af47-989af183143a",
-                  "parentUUID": "b3148588-7ca4-4f35-b6b0-83771173ae7d",
+                  "uuid": "9876c677-e660-4974-b6bd-f534783834a0",
+                  "parentUUID": "39ecb322-c935-430a-9aa1-24f72cd23db4",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "83175b50-814d-4c15-af47-989af183143a"
+                "9876c677-e660-4974-b6bd-f534783834a0"
               ],
               "failures": [],
               "pending": [],
@@ -2062,7 +2062,7 @@
               "_timeout": 2000
             },
             {
-              "uuid": "276ade54-0bdc-4985-b3c3-b7e240fa10e1",
+              "uuid": "e8ab4b03-c4fc-46c1-ab49-7269fb55a23d",
               "title": "findUserById - normal case",
               "fullFile": "C:\\Test_JS\\test\\usersListUtils.test.js",
               "file": "\\test\\usersListUtils.test.js",
@@ -2080,17 +2080,17 @@
                   "fail": false,
                   "pending": false,
                   "context": null,
-                  "code": "const result = findUserById(users, 2);\nexpect(result).to.deep.equal({ id: 2, name: \"Anna\", age: 30, email: \"anna@example.com\" });",
+                  "code": "const result = findUserById(users, 2);\nexpect(result).to.deep.equal({ id: 2, name: 'Anna', age: 30, email: 'anna@example.com' });",
                   "err": {},
-                  "uuid": "2cb351f0-65b6-4cc2-90a7-1f438d9bff58",
-                  "parentUUID": "276ade54-0bdc-4985-b3c3-b7e240fa10e1",
+                  "uuid": "2002114a-51f4-41c5-8c93-ee8f9cb73208",
+                  "parentUUID": "e8ab4b03-c4fc-46c1-ab49-7269fb55a23d",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "2cb351f0-65b6-4cc2-90a7-1f438d9bff58"
+                "2002114a-51f4-41c5-8c93-ee8f9cb73208"
               ],
               "failures": [],
               "pending": [],
@@ -2101,7 +2101,7 @@
               "_timeout": 2000
             },
             {
-              "uuid": "a45f3983-76f4-49b1-b431-0a97912e1426",
+              "uuid": "a8201e08-f4d5-4917-8304-80b838da7b95",
               "title": "findUserById - user not found",
               "fullFile": "C:\\Test_JS\\test\\usersListUtils.test.js",
               "file": "\\test\\usersListUtils.test.js",
@@ -2112,7 +2112,7 @@
                   "title": "Returns null if user is not found",
                   "fullTitle": "Users List Utils findUserById - user not found Returns null if user is not found",
                   "timedOut": false,
-                  "duration": 1,
+                  "duration": 0,
                   "state": "passed",
                   "speed": "fast",
                   "pass": true,
@@ -2121,26 +2121,26 @@
                   "context": null,
                   "code": "const result = findUserById(users, 999);\nexpect(result).to.equal(null);",
                   "err": {},
-                  "uuid": "8f5d1fc0-9692-4f89-8b3e-2c2638de7247",
-                  "parentUUID": "a45f3983-76f4-49b1-b431-0a97912e1426",
+                  "uuid": "370627a2-9ae9-4bc8-9e71-bf8e5f124e8c",
+                  "parentUUID": "a8201e08-f4d5-4917-8304-80b838da7b95",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "8f5d1fc0-9692-4f89-8b3e-2c2638de7247"
+                "370627a2-9ae9-4bc8-9e71-bf8e5f124e8c"
               ],
               "failures": [],
               "pending": [],
               "skipped": [],
-              "duration": 1,
+              "duration": 0,
               "root": false,
               "rootEmpty": false,
               "_timeout": 2000
             },
             {
-              "uuid": "567084ed-befc-44de-82ca-c5a61be03a8c",
+              "uuid": "ee237840-7b72-4d94-b6f8-eed0b79d021d",
               "title": "findUserById - input validation",
               "fullFile": "C:\\Test_JS\\test\\usersListUtils.test.js",
               "file": "\\test\\usersListUtils.test.js",
@@ -2158,17 +2158,17 @@
                   "fail": false,
                   "pending": false,
                   "context": null,
-                  "code": "expect(() => findUserById(\"not an array\", 1)).to.throw(\"Users must be an array\");",
+                  "code": "expect(() => findUserById('not an array', 1)).to.throw('Users must be an array');",
                   "err": {},
-                  "uuid": "37e9b531-e1fe-407f-87a5-1b9ca9b29f75",
-                  "parentUUID": "567084ed-befc-44de-82ca-c5a61be03a8c",
+                  "uuid": "77d0d5dd-a343-4dc9-9ef8-4eb96c5b37f7",
+                  "parentUUID": "ee237840-7b72-4d94-b6f8-eed0b79d021d",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "37e9b531-e1fe-407f-87a5-1b9ca9b29f75"
+                "77d0d5dd-a343-4dc9-9ef8-4eb96c5b37f7"
               ],
               "failures": [],
               "pending": [],
@@ -2179,7 +2179,7 @@
               "_timeout": 2000
             },
             {
-              "uuid": "051acbeb-f9d4-4af2-b3a4-2c7d0be1ce1b",
+              "uuid": "bc820f7b-5119-4326-8c0d-a58142ae7360",
               "title": "findUserById - empty array",
               "fullFile": "C:\\Test_JS\\test\\usersListUtils.test.js",
               "file": "\\test\\usersListUtils.test.js",
@@ -2199,15 +2199,15 @@
                   "context": null,
                   "code": "expect(findUserById([], 1)).to.equal(null);",
                   "err": {},
-                  "uuid": "8e3ac213-1993-4420-8375-92f92cf52831",
-                  "parentUUID": "051acbeb-f9d4-4af2-b3a4-2c7d0be1ce1b",
+                  "uuid": "04b8b5ec-05b5-44dd-937e-a02d60c5ad72",
+                  "parentUUID": "bc820f7b-5119-4326-8c0d-a58142ae7360",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "8e3ac213-1993-4420-8375-92f92cf52831"
+                "04b8b5ec-05b5-44dd-937e-a02d60c5ad72"
               ],
               "failures": [],
               "pending": [],
@@ -2218,7 +2218,7 @@
               "_timeout": 2000
             },
             {
-              "uuid": "3ac41b34-d3bf-40f9-bf3f-94aef33dba63",
+              "uuid": "8422e6c3-83af-4505-b14d-dee6f260999e",
               "title": "findUserById - duplicate IDs",
               "fullFile": "C:\\Test_JS\\test\\usersListUtils.test.js",
               "file": "\\test\\usersListUtils.test.js",
@@ -2229,35 +2229,35 @@
                   "title": "Finds first user if multiple users have same ID",
                   "fullTitle": "Users List Utils findUserById - duplicate IDs Finds first user if multiple users have same ID",
                   "timedOut": false,
-                  "duration": 1,
+                  "duration": 0,
                   "state": "passed",
                   "speed": "fast",
                   "pass": true,
                   "fail": false,
                   "pending": false,
                   "context": null,
-                  "code": "const usersWithDuplicateIds = [\n  { id: 1, name: \"John\", age: 25, email: \"john1@example.com\" },\n  { id: 1, name: \"Jane\", age: 30, email: \"jane@example.com\" }\n];\nconst result = findUserById(usersWithDuplicateIds, 1);\nexpect(result).to.deep.equal(usersWithDuplicateIds[0]);",
+                  "code": "const usersWithDuplicateIds = [\n  { id: 1, name: 'John', age: 25, email: 'john1@example.com' },\n  { id: 1, name: 'Jane', age: 30, email: 'jane@example.com' },\n];\nconst result = findUserById(usersWithDuplicateIds, 1);\nexpect(result).to.deep.equal(usersWithDuplicateIds[0]);",
                   "err": {},
-                  "uuid": "081f3e9d-3803-4a94-a81e-71b601cff0fe",
-                  "parentUUID": "3ac41b34-d3bf-40f9-bf3f-94aef33dba63",
+                  "uuid": "dbe2c5a7-b467-4298-a270-e15d8272266d",
+                  "parentUUID": "8422e6c3-83af-4505-b14d-dee6f260999e",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "081f3e9d-3803-4a94-a81e-71b601cff0fe"
+                "dbe2c5a7-b467-4298-a270-e15d8272266d"
               ],
               "failures": [],
               "pending": [],
               "skipped": [],
-              "duration": 1,
+              "duration": 0,
               "root": false,
               "rootEmpty": false,
               "_timeout": 2000
             },
             {
-              "uuid": "64e8c891-ee54-495f-910a-bc1660fc359b",
+              "uuid": "24b9a0f8-f570-41ac-8e88-7d61cc76ca04",
               "title": "isEmailTaken - true case",
               "fullFile": "C:\\Test_JS\\test\\usersListUtils.test.js",
               "file": "\\test\\usersListUtils.test.js",
@@ -2275,17 +2275,17 @@
                   "fail": false,
                   "pending": false,
                   "context": null,
-                  "code": "expect(isEmailTaken(users, \"anna@example.com\")).to.equal(true);",
+                  "code": "expect(isEmailTaken(users, 'anna@example.com')).to.equal(true);",
                   "err": {},
-                  "uuid": "d13bf1e7-7134-4457-9ef1-0127c8b5b8cd",
-                  "parentUUID": "64e8c891-ee54-495f-910a-bc1660fc359b",
+                  "uuid": "c8bfe3f0-b3a3-40e2-acf0-934fab4662c3",
+                  "parentUUID": "24b9a0f8-f570-41ac-8e88-7d61cc76ca04",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "d13bf1e7-7134-4457-9ef1-0127c8b5b8cd"
+                "c8bfe3f0-b3a3-40e2-acf0-934fab4662c3"
               ],
               "failures": [],
               "pending": [],
@@ -2296,7 +2296,7 @@
               "_timeout": 2000
             },
             {
-              "uuid": "7ac3584b-d6c2-451a-b852-7845c7bd295e",
+              "uuid": "e60ff4a7-3389-44d9-9e25-ec5753751461",
               "title": "isEmailTaken - false case",
               "fullFile": "C:\\Test_JS\\test\\usersListUtils.test.js",
               "file": "\\test\\usersListUtils.test.js",
@@ -2314,17 +2314,17 @@
                   "fail": false,
                   "pending": false,
                   "context": null,
-                  "code": "expect(isEmailTaken(users, \"unknown@example.com\")).to.equal(false);",
+                  "code": "expect(isEmailTaken(users, 'unknown@example.com')).to.equal(false);",
                   "err": {},
-                  "uuid": "f956aed5-06e6-49e7-b889-dc54062d58f9",
-                  "parentUUID": "7ac3584b-d6c2-451a-b852-7845c7bd295e",
+                  "uuid": "50686e35-46ac-4cf8-84b7-1c63ad541025",
+                  "parentUUID": "e60ff4a7-3389-44d9-9e25-ec5753751461",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "f956aed5-06e6-49e7-b889-dc54062d58f9"
+                "50686e35-46ac-4cf8-84b7-1c63ad541025"
               ],
               "failures": [],
               "pending": [],
@@ -2335,7 +2335,7 @@
               "_timeout": 2000
             },
             {
-              "uuid": "4545acba-f270-4c11-8e7c-5d5ba1af6077",
+              "uuid": "cb4374ba-b3fb-4582-9656-dc92b83cf877",
               "title": "isEmailTaken - input validation",
               "fullFile": "C:\\Test_JS\\test\\usersListUtils.test.js",
               "file": "\\test\\usersListUtils.test.js",
@@ -2353,17 +2353,17 @@
                   "fail": false,
                   "pending": false,
                   "context": null,
-                  "code": "expect(() => isEmailTaken(\"not an array\", \"test@example.com\")).to.throw(\"Users must be an array\");",
+                  "code": "expect(() => isEmailTaken('not an array', 'test@example.com')).to.throw('Users must be an array');",
                   "err": {},
-                  "uuid": "c342d866-8ecb-4d4f-a743-a263b1829830",
-                  "parentUUID": "4545acba-f270-4c11-8e7c-5d5ba1af6077",
+                  "uuid": "23aaf3ba-50e3-41a8-81bc-e6024544ba21",
+                  "parentUUID": "cb4374ba-b3fb-4582-9656-dc92b83cf877",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "c342d866-8ecb-4d4f-a743-a263b1829830"
+                "23aaf3ba-50e3-41a8-81bc-e6024544ba21"
               ],
               "failures": [],
               "pending": [],
@@ -2374,7 +2374,7 @@
               "_timeout": 2000
             },
             {
-              "uuid": "56975075-cc3d-4491-9504-d4476fc29baf",
+              "uuid": "8b65233f-57bd-40be-8846-d7ff06af50a7",
               "title": "isEmailTaken - empty array",
               "fullFile": "C:\\Test_JS\\test\\usersListUtils.test.js",
               "file": "\\test\\usersListUtils.test.js",
@@ -2392,17 +2392,17 @@
                   "fail": false,
                   "pending": false,
                   "context": null,
-                  "code": "expect(isEmailTaken([], \"test@example.com\")).to.equal(false);",
+                  "code": "expect(isEmailTaken([], 'test@example.com')).to.equal(false);",
                   "err": {},
-                  "uuid": "425d19cf-fd97-43fa-958c-2b755b0d7a4a",
-                  "parentUUID": "56975075-cc3d-4491-9504-d4476fc29baf",
+                  "uuid": "574ec2ff-0263-4a48-81ca-47095f9cb261",
+                  "parentUUID": "8b65233f-57bd-40be-8846-d7ff06af50a7",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "425d19cf-fd97-43fa-958c-2b755b0d7a4a"
+                "574ec2ff-0263-4a48-81ca-47095f9cb261"
               ],
               "failures": [],
               "pending": [],
@@ -2413,7 +2413,7 @@
               "_timeout": 2000
             },
             {
-              "uuid": "1631aef2-79e2-4e1e-a057-208ecdb760b9",
+              "uuid": "032d296d-f1e8-4dfe-a6de-708bf1d095ac",
               "title": "isEmailTaken - case sensitivity",
               "fullFile": "C:\\Test_JS\\test\\usersListUtils.test.js",
               "file": "\\test\\usersListUtils.test.js",
@@ -2431,17 +2431,17 @@
                   "fail": false,
                   "pending": false,
                   "context": null,
-                  "code": "expect(isEmailTaken(users, \"ANNA@EXAMPLE.COM\")).to.equal(false);",
+                  "code": "expect(isEmailTaken(users, 'ANNA@EXAMPLE.COM')).to.equal(false);",
                   "err": {},
-                  "uuid": "66f08b20-f5c8-4f26-a797-ca0f4f2c0073",
-                  "parentUUID": "1631aef2-79e2-4e1e-a057-208ecdb760b9",
+                  "uuid": "96c5f112-b3aa-4611-a7fb-9cd3a2744217",
+                  "parentUUID": "032d296d-f1e8-4dfe-a6de-708bf1d095ac",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "66f08b20-f5c8-4f26-a797-ca0f4f2c0073"
+                "96c5f112-b3aa-4611-a7fb-9cd3a2744217"
               ],
               "failures": [],
               "pending": [],
@@ -2452,7 +2452,7 @@
               "_timeout": 2000
             },
             {
-              "uuid": "b88f9c79-431e-4ec7-a6e0-7355a866d011",
+              "uuid": "19353b74-cc0c-4519-917d-1a7137ff7bf2",
               "title": "isEmailTaken - duplicate emails",
               "fullFile": "C:\\Test_JS\\test\\usersListUtils.test.js",
               "file": "\\test\\usersListUtils.test.js",
@@ -2470,17 +2470,17 @@
                   "fail": false,
                   "pending": false,
                   "context": null,
-                  "code": "const usersWithDuplicateEmails = [\n  { id: 1, name: \"John\", age: 25, email: \"test@example.com\" },\n  { id: 2, name: \"Jane\", age: 30, email: \"test@example.com\" }\n];\nexpect(isEmailTaken(usersWithDuplicateEmails, \"test@example.com\")).to.equal(true);",
+                  "code": "const usersWithDuplicateEmails = [\n  { id: 1, name: 'John', age: 25, email: 'test@example.com' },\n  { id: 2, name: 'Jane', age: 30, email: 'test@example.com' },\n];\nexpect(isEmailTaken(usersWithDuplicateEmails, 'test@example.com')).to.equal(true);",
                   "err": {},
-                  "uuid": "1d517fe9-9ca2-465e-bcd5-36162c6ccb28",
-                  "parentUUID": "b88f9c79-431e-4ec7-a6e0-7355a866d011",
+                  "uuid": "e804bbec-19b8-41c6-b7d1-10f63945a245",
+                  "parentUUID": "19353b74-cc0c-4519-917d-1a7137ff7bf2",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "1d517fe9-9ca2-465e-bcd5-36162c6ccb28"
+                "e804bbec-19b8-41c6-b7d1-10f63945a245"
               ],
               "failures": [],
               "pending": [],
